@@ -1,0 +1,18 @@
+server:
+  servlet:
+    encoding:
+      force-response: true
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:tcp://localhost/~/login
+    username: sa
+    password:
+
+jwt:
+  secret: hello.world.ee.ff

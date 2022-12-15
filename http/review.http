@@ -1,0 +1,9 @@
+### 리뷰 등록
+
+POST http://localhost:8080/api/v1/reviews
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyTmFtZSI6Iu2Zjeq4uOuPmTIiLCJpYXQiOjE2NzEwOTAyMjAsImV4cCI6MTY3MTA5MzgyMH0.AYxqE2TAQP06C4940XTTVE_ripBkLmGNSUaua83w0v0
+
+{
+  "id": 1
+}
